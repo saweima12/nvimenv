@@ -11,6 +11,7 @@ return packer.startup(function()
   -- ::: BufferBar :::
   use 'romgrk/barbar.nvim'
 
+
   -- ::: StatusBar :::
   use 'hoob3rt/lualine.nvim'
 
@@ -21,7 +22,6 @@ return packer.startup(function()
   use 'navarasu/onedark.nvim'
   use 'mhartington/oceanic-next'
   use 'yonlu/omni.vim'
-  use 'EdenEast/nightfox.nvim'
 
   -- ::: DiagonsticsView :::
     use { 'folke/trouble.nvim',
@@ -50,6 +50,9 @@ return packer.startup(function()
   -- ::: Snippets :::
   use 'SirVer/ultisnips'
 
+  -- ::: Whcihkey :::
+  use 'folke/which-key.nvim'
+
   -- ::: Finder :::
   use 'nvim-telescope/telescope.nvim'
   use 'sudormrfbin/cheatsheet.nvim'
@@ -62,6 +65,12 @@ return packer.startup(function()
   -- ::: Asynctasks:::
   use 'skywind3000/asynctasks.vim'
   use 'skywind3000/asyncrun.vim'
+
+
+  -- ::: GitSupport :::
+  use 'TimUntersberger/neogit'
+  use "lewis6991/gitsigns.nvim"
+
 
   -- ::: Terminal :::
   use "akinsho/nvim-toggleterm.lua"

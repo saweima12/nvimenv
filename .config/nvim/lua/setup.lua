@@ -36,6 +36,7 @@ vim.cmd("colorscheme onedark")
 local setup_list = {
   "barbar",
   "dashboard",
+  "gitsigns",
   "gutentags",
   "indentline",
   "lualine",

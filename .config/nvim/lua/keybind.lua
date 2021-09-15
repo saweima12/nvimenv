@@ -59,15 +59,24 @@ map('n', 'k', '<Plug>(accelerated_jk_gk)', plug)
 map('n', '<leader>t', ':Vista!!<CR>', nore)
 
 -- ::: Telescope keybind :::
-map('n', '<leader>fe', ':Telescope find_files<CR>', nore)
+map('n', '<leader>ff', ':Telescope find_files<CR>', nore)
+map('n', '<leader>fh', ':Telescope oldfiles<CR>', nore)
+map('n', '<leader>fcc', ':Telescope colorscheme<CR>', nore)
 map('n', '<leader>flg', ':Telescope live_grep<CR>', nore)
 map('n', '<leader>fb', ':Telescope buffers<CR>', nore)
 map('n', '<leader>fgs', ':Telescope git_status<CR>', nore)
 map('n', '<leader>fgc', ':Telescope git_commits<CR>', nore)
 map('n', '<leader>fga', ':Telescope git_stash<CR>', nore)
 map('n', '<leader>fp', ':Telescope project<CR>', nore)
--- ::: Hop keybind :::
-map('n', '<leader>ss', ':HopChar2<CR>', nore)
+
+-- ::: Dashboard Session Support :::
+map('n', '<leader>ss', ':SessionSave<CR>', nore)
+map('n', '<leader>sl', ':SessionLoad<CR>', nore)
+map('n', '<leader>cn', ':DashboardNewFile<CR>', nore)
+map('n', '<leader>fm', ':DashboardJumpMark<CR>', nore)
+
+-- ::: Hop keybind f::
+map('n', '<leader>sf', ':HopChar2<CR>', nore)
 
 -- ::: Undo BreakPoint :::
 map('i', ',', ',<C-g>u', nore)

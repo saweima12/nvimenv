@@ -89,6 +89,10 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/tassis/.local/share/nvim/site/pack/packer/start/barbar.nvim"
   },
+  ["bufdelete.nvim"] = {
+    loaded = true,
+    path = "/home/tassis/.local/share/nvim/site/pack/packer/start/bufdelete.nvim"
+  },
   ["cheatsheet.nvim"] = {
     loaded = true,
     path = "/home/tassis/.local/share/nvim/site/pack/packer/start/cheatsheet.nvim"
@@ -105,6 +109,10 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/tassis/.local/share/nvim/site/pack/packer/start/editorconfig-vim"
   },
+  ["gitsigns.nvim"] = {
+    loaded = true,
+    path = "/home/tassis/.local/share/nvim/site/pack/packer/start/gitsigns.nvim"
+  },
   gutentags_plus = {
     loaded = true,
     path = "/home/tassis/.local/share/nvim/site/pack/packer/start/gutentags_plus"
@@ -120,6 +128,10 @@ _G.packer_plugins = {
   ["lualine.nvim"] = {
     loaded = true,
     path = "/home/tassis/.local/share/nvim/site/pack/packer/start/lualine.nvim"
+  },
+  neogit = {
+    loaded = true,
+    path = "/home/tassis/.local/share/nvim/site/pack/packer/start/neogit"
   },
   ["nvim-comment"] = {
     loaded = true,
