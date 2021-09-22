@@ -2,7 +2,6 @@ local lspconf = {}
 
 
 lspconf.attach = function(config)
-  print("on lua attach")
   config.settings = {
     Lua = {
       diagnostics = {
