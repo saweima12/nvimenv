@@ -89,10 +89,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/tassis/.local/share/nvim/site/pack/packer/start/barbar.nvim"
   },
-  ["bufdelete.nvim"] = {
-    loaded = true,
-    path = "/home/tassis/.local/share/nvim/site/pack/packer/start/bufdelete.nvim"
-  },
   ["cheatsheet.nvim"] = {
     loaded = true,
     path = "/home/tassis/.local/share/nvim/site/pack/packer/start/cheatsheet.nvim"
@@ -237,6 +233,10 @@ _G.packer_plugins = {
   ["vista.vim"] = {
     loaded = true,
     path = "/home/tassis/.local/share/nvim/site/pack/packer/start/vista.vim"
+  },
+  ["which-key.nvim"] = {
+    loaded = true,
+    path = "/home/tassis/.local/share/nvim/site/pack/packer/start/which-key.nvim"
   }
 }
 

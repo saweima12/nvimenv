@@ -45,7 +45,8 @@ return packer.startup(function()
   use 'nvim-lua/plenary.nvim'
   use 'neovim/nvim-lspconfig'
   use 'nvim-lua/completion-nvim'
-  use 'kabouzeid/nvim-lspinstall'
+  use 'williamboman/nvim-lsp-installer'
+  --  use 'kabouzeid/nvim-lspinstall'
 
   -- ::: Snippets :::
   use 'SirVer/ultisnips'

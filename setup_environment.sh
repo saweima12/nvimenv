@@ -1,7 +1,6 @@
 #!/bin/bash
 sudo pacman -S global ripgrep tmux 
 
-
 # install nerd-fonts
 read -p "Do you wish to install nerd font?" yn
 case $yn in
