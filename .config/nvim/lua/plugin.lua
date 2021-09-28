@@ -46,7 +46,7 @@ return packer.startup(function()
   use 'neovim/nvim-lspconfig'
   use 'nvim-lua/completion-nvim'
   use 'williamboman/nvim-lsp-installer'
-  --  use 'kabouzeid/nvim-lspinstall'
+  use 'kkoomen/vim-doge'
 
   -- ::: Snippets :::
   use 'SirVer/ultisnips'

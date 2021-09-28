@@ -51,10 +51,10 @@ local setup_list = {
 for i=1, #setup_list, 1 do
   local module_name = setup_list[i]
   local require_path = string.format("partial.%s", module_name)
-  
+
   local conf = require(require_path)
   if (type(conf) == "table") then
-    local ok, retval  = pcall(conf.setup)
+    local ok, _  = pcall(conf.setup)
     if not ok then
       print(string.format(":: Warn :: %s 's configure not loaded", module_name))
     end

@@ -137,13 +137,13 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/tassis/.local/share/nvim/site/pack/packer/start/nvim-cursorword"
   },
+  ["nvim-lsp-installer"] = {
+    loaded = true,
+    path = "/home/tassis/.local/share/nvim/site/pack/packer/start/nvim-lsp-installer"
+  },
   ["nvim-lspconfig"] = {
     loaded = true,
     path = "/home/tassis/.local/share/nvim/site/pack/packer/start/nvim-lspconfig"
-  },
-  ["nvim-lspinstall"] = {
-    loaded = true,
-    path = "/home/tassis/.local/share/nvim/site/pack/packer/start/nvim-lspinstall"
   },
   ["nvim-neoclip.lua"] = {
     loaded = true,
