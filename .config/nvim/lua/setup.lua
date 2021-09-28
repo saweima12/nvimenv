@@ -42,6 +42,7 @@ local setup_list = {
   "lualine",
   "lsp",
   "nvim_comment",
+  "nvim_tree",
   "telescope",
   "toggleterm",
   "treesitter",
