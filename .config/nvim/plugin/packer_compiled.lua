@@ -105,6 +105,10 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/tassis/.local/share/nvim/site/pack/packer/start/editorconfig-vim"
   },
+  ["emmet-vim"] = {
+    loaded = true,
+    path = "/home/tassis/.local/share/nvim/site/pack/packer/start/emmet-vim"
+  },
   ["gitsigns.nvim"] = {
     loaded = true,
     path = "/home/tassis/.local/share/nvim/site/pack/packer/start/gitsigns.nvim"
@@ -160,6 +164,10 @@ _G.packer_plugins = {
   ["nvim-treesitter"] = {
     loaded = true,
     path = "/home/tassis/.local/share/nvim/site/pack/packer/start/nvim-treesitter"
+  },
+  ["nvim-ts-autotag"] = {
+    loaded = true,
+    path = "/home/tassis/.local/share/nvim/site/pack/packer/start/nvim-ts-autotag"
   },
   ["nvim-web-devicons"] = {
     loaded = true,
@@ -217,6 +225,10 @@ _G.packer_plugins = {
   ultisnips = {
     loaded = true,
     path = "/home/tassis/.local/share/nvim/site/pack/packer/start/ultisnips"
+  },
+  ["vim-doge"] = {
+    loaded = true,
+    path = "/home/tassis/.local/share/nvim/site/pack/packer/start/vim-doge"
   },
   ["vim-gutentags"] = {
     loaded = true,

@@ -2,10 +2,10 @@ local install_servers = require('nvim-lsp-installer.servers')
 local gset = vim.api.nvim_set_var
 local partial = {}
 
-
 -- loading lsp.%s module for configure lsp setting.
 partial.setup = function()
   local servers = {}
+  
   servers = install_servers.get_installed_servers()
   --gset("completion_enable_snippet", "UltiSnips")
 
@@ -19,7 +19,9 @@ partial.setup = function()
       -- config attach
       lspconf.attach(config)
     end
-    server:setup(config)
+    local coq = require('coq')
+  
+    server:setup(coq.lsp_ensure_capabilities(config))
   end
 end
 
@@ -32,7 +34,7 @@ partial.make_config = function()
     capabiities = capabilities,
     on_attach=function(client, bufnr)
       vim.lsp_attach_keybind(client, bufnr)
-      return require('completion').on_attach(client, bufnr)
+      return require('coq').lsp_ensure_capabilities()
     end
   }
 end

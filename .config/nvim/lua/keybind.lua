@@ -85,6 +85,7 @@ map('i', '.', '.<C-g>u', nore)
 map('i', '!', '!<C-g>u', nore)
 map('i', '?', '?<C-g>u', nore)
 
+
 -- ::: Lsp support keybind :::
 -- Register in vim table, for LSP setup use.
 vim.lsp_attach_keybind = function (client, bufnr)

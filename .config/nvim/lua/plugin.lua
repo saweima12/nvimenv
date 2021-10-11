@@ -44,7 +44,7 @@ return packer.startup(function()
   -- use {'neoclide/coc.nvim', branch = 'release'}
   use 'nvim-lua/plenary.nvim'
   use 'neovim/nvim-lspconfig'
-  use 'nvim-lua/completion-nvim'
+  use 'ms-jpq/coq_nvim'
   use 'williamboman/nvim-lsp-installer'
   use 'kkoomen/vim-doge'
 
@@ -72,7 +72,6 @@ return packer.startup(function()
   use 'TimUntersberger/neogit'
   use "lewis6991/gitsigns.nvim"
 
-
   -- ::: Terminal :::
   use "akinsho/nvim-toggleterm.lua"
 
@@ -83,11 +82,13 @@ return packer.startup(function()
   use 'terrortylor/nvim-comment'
   use 'wellle/targets.vim'
   use 'jiangmiao/auto-pairs'
+  use 'windwp/nvim-ts-autotag'
   use 'xiyaowong/nvim-cursorword'
   use 'phaazon/hop.nvim'
   use 'rhysd/accelerated-jk'
   use 'lukas-reineke/indent-blankline.nvim'
   use 'tpope/vim-surround'
+  use 'mattn/emmet-vim'
 
   -- ::: EditorConfig Support :::
   use 'editorconfig/editorconfig-vim'

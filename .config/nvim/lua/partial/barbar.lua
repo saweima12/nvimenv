@@ -8,7 +8,7 @@ end
 
 partial.open = function()
   require('bufferline.state').set_offset(31, "Explorer")
-  require('nvim-tree').find_file(true)
+  require('nvim-tree').open()
 end
 
 partial.close = function()

@@ -25,6 +25,8 @@ set.shortmess = set.shortmess + "c"
 set.clipboard = set.clipboard + "unnamedplus"
 
 
+
+gset("user_emmet_expandabbr_key", "<C-g>")
 gset("python3_host_prog", "/usr/bin/python3")
 
 -- set colorScheme
@@ -35,6 +37,7 @@ vim.cmd("colorscheme onedark")
 -- :::                                    :::
 local setup_list = {
   "barbar",
+  "coq",
   "dashboard",
   "gitsigns",
   "gutentags",
