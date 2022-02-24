@@ -8,21 +8,20 @@ end
 
 partial.open = function()
   require('bufferline.state').set_offset(31, "Explorer")
-  require('nvim-tree').open()
+  require('nvim-tree').toggle()
 end
 
 partial.close = function()
   require('bufferline.state').set_offset(0)
-  require('nvim-tree').close()
+  require('nvim-tree').toggle()
 end
 
 partial.toggle = function()
-  if not tree_view.win_open() then
+  if not tree_view.is_visible() then
     partial.open()
   else
     partial.close()
   end
-
 end
 
 return partial
